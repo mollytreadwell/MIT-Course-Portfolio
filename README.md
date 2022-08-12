@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+# Molly Treadwell
 
-You can use the [editor on GitHub](https://github.com/mollytreadwell/MHT-Portfolio/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Portfolio
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The goal of this resource is to display and highlight Molly Treadwell's _digital projects_, the _development skills_ she has mastered, along with her _professional accomplishments and goals_.
 
-### Markdown
+## How to Navigate 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+From the launch page, use the navigation bar to explore various other pages that delve into Molly's completed MIT coding projects, her freelance social media management accounts, a complete bio, and more. Below describes each page in short detail;
 
-```markdown
-Syntax highlighted code block
+### Launch
 
-# Header 1
-## Header 2
-### Header 3
+The first page displayed contains a brief video introducing the user to Molly, snippets of her bio are translated in text in a side block to make following along easier.  Simple tips on how to move around the site will also be noted on this page.
 
-- Bulleted
-- List
+### Projects
 
-1. Numbered
-2. List
+The projects page gives detail to three of Molly's MIT coding projects along with teaser images and links to the project repositories on GitHub. 
 
-**Bold** and _Italic_ and `Code` text
+### Profile
 
-[Link](url) and ![Image](src)
-```
+More thorough information about Molly's professional achievements and aspirations can be found on the profile page. Links to freelance projects can be found on this page.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+### Contact
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mollytreadwell/MHT-Portfolio/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Here the user will find links to additional resources such as Molly's LinkedIn, Twitter, GitHub and other social media platforms. Here the user will also find how to contact Molly Treadwell directly. 
