@@ -25,6 +25,17 @@
             border-radius: 10px;
             border-color: goldenrod;
             width: 280px;
+            text-align: center;
+        }
+        .column {
+          float: left;
+          width: fit-content;
+          padding: 5px;
+        }
+        .row {
+          content: "";
+          clear: both;
+          display: table;
         }
     </style>
 
@@ -65,28 +76,43 @@
         </div>
       </nav>   
     <h1>GitHub Repositories</h1>
+      <div class="row">
+        <div class="column">
     <p class="borders">On this page, the user will find links to a few examples of the code Molly has created. Each project highlights her competency in various coding languages like HTML, JavaScript and CSS.</p>
+    </div>
+    <div class="column">
     <p class="borders">Simply follow the links to the GitHub repository page so view the code, or the user can click the <i>Watch It In Action</i> button and be redirected to the project page.
     </p>
-    <h2>Eyes</h2>
+   </div>
+   </div>
+    <div class="row">
+      <div class="column">
+    <h2 class="borders">Eyes</h2>
     <a href="https://mollytreadwell.github.io/eyes/">
       <img alt="Eyes" src="./eyes_readme.png">
     </a>
+    </div>
+    <div class="column">
     <br>
-    <h2>PacMan</h2>
+    <h2 class="borders">PacMan</h2>
     <a href="https://mollytreadwell.github.io/PACMAN/">
       <img alt="PacMan" src="./pacman_readme.png">    </a>
     <br>
-    <h2>Bus Tracker</h2>
+   </div>
+   <div class="column">
+    <h2 class="borders">Bus Tracker</h2>
     <a href="https://mollytreadwell.github.io/Real-Time-Bus-Tracker/">
     <img alt="Bus" src="./bus_readme.png">
     </a>
+    </div>
     <br>
-    <h2>Travel Guide</h2>
+<div class="column">
+    <h2 class="borders">Travel Guide</h2>
     <a href="https://mollytreadwell.github.io/travelguide/">
       <img alt="Travel" src="./travel_readme.png">
     </a>
-   
+   </div>
+   </div>
 </body>
 <button onclick=window.location="./index.html">HOME</button>
 </html>
