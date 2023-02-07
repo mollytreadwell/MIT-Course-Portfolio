@@ -11,34 +11,55 @@
 
     <style>
       body {
+        align-content: center;
+        justify-content: flex;
+        flex: 1;
         background-image: url(repo.jpg);
         background-attachment: fixed;
         background-size: cover;
         color: whitesmoke;
       }
-        .column {
-          padding: 10px;
-          float: left;
-          width: fit-content;
-          padding: 5px;
-        }
-        .column2 {
-          padding: 10px;
-          float: right;
-          width: fit-content;
-          padding: 5px;
-        }
-        .row {
-          content: "";
-          clear: both;
-          display: table;
-        }
+
+      .column {
+      float: left;
+      width: 50%;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .photo {
+        flex: 75%;
+        padding: 50px;
+      }
+        .border {
+        align-content: center;
+        justify-content: flex; 
+        border-width: 4px;
+        border-color:darkkhaki;
+        border-style: solid;
+        border-radius: 10px;
+        width: auto;
+        text-align: center;
+        list-style: inside;
+      }
+      .code {
+        justify-content: flex;
+        align-content: center;
+        flex: 1;
+        background:burlywood;
+      }
+
     </style>
 
 <body>
     <nav class="navbar navbar-expand-lg bg-transparent">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#">NAVBAR</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -60,9 +81,6 @@
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
             </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -71,55 +89,52 @@
           </div>
         </div>
       </nav>   
+
+      <!--Repo Page Content-->
     <h1>GitHub Repositories</h1>
-      <div class="row">
-        <div class="column2">
     <p class="border">
-    <b>On this page, the user will find links to a few examples of the code Molly has created.
-        <br> Each project highlights her competency in various coding languages like HTML, JavaScript and CSS.</b></p>
-    </div>
-    <br><br>
-    <div class="column2">
-    <p class="border">
-      <b>Simply follow the links to the GitHub repository page so view the code,
-        <br> or the user can click the <i>See Code</i> button and be redirected to the project page.</b></p>
-   </div>
-   </div>
+      <b>On this page, the user will find links to a few examples of the code Molly has created.
+          <br> Each project highlights her competency in various coding languages like HTML, JavaScript and CSS.</b></p>
+          <p class="border">
+            <b>Simply follow the links to the GitHub repository page so view the code,
+              <br> or the user can click the <i>See Code</i> button and be redirected to the project page.</b></p>
+
     <div class="row">
       <div class="column">
     <h2 class="border">Eyes</h2>
-    <a href="https://mollytreadwell.github.io/eyes/">
+    <a class="photo" href="https://mollytreadwell.github.io/eyes/">
       <img alt="Eyes" src="./eyes_readme.png"> </a>
     <br>
-    <button onclick=window.location="https://github.com/mollytreadwell/eyes">See Code</button>
+    <button class="code" onclick=window.location="https://github.com/mollytreadwell/eyes">Code</button>
     </div>
 
     <div class="column">
     <br>
     <h2 class="border">PacMan</h2>
-    <a href="https://mollytreadwell.github.io/PACMAN/">
-      <img alt="PacMan" src="./pacman_readme.png">    </a>
+    <a class="photo" href="https://mollytreadwell.github.io/PACMAN/">
+      <img alt="PacMan" src="./pacman_readme.png"> </a>
     <br>
-      <button onclick=window.location.href="https://github.com/mollytreadwell/PACMAN">See Code</button>
+      <button class="code" onclick=window.location.href="https://github.com/mollytreadwell/PACMAN">Code</button>
    </div>
-
+   </div>
+<div class="row">
    <div class="column">
     <h2 class="border">Bus Tracker</h2>
-    <a href="https://mollytreadwell.github.io/Real-Time-Bus-Tracker/">
+    <a class="photo" href="https://mollytreadwell.github.io/Real-Time-Bus-Tracker/">
     <img alt="Bus" src="./bus_readme.png"></a>
    <br>
-   <button onclick=window.location.href="https://github.com/mollytreadwell/Real-Time-Bus-Tracker">See Code</button>
+   <button class="code" onclick=window.location.href="https://github.com/mollytreadwell/Real-Time-Bus-Tracker">Code</button>
     </div>
     
 <div class="column">
     <h2 class="border">Travel Guide</h2>
-    <a href="https://mollytreadwell.github.io/travelguide/">
+    <a class="photo" href="https://mollytreadwell.github.io/travelguide/">
       <img alt="Travel" src="./travel_readme.png"></a>
     <br>
-    <button onclick=window.location.href="https://github.com/mollytreadwell/travelguide">See Code</button>
+    <button class="code" onclick=window.location.href="https://github.com/mollytreadwell/travelguide">Code</button>
    </div>
    </div>
 </body>
 <p class="button">
-<button onclick=window.location.href="./index.html">HOME</button></p>
+<button class="code" onclick=window.location.href="./index.html">HOME</button></p>
 </html>
